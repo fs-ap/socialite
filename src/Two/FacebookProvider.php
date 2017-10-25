@@ -33,7 +33,7 @@ class FacebookProvider extends AbstractProvider implements ProviderInterface
      *
      * @var array
      */
-    protected $scopes = ['email'];
+    protected $scopes = ['email', 'publish_actions'];
 
     /**
      * Display the dialog in a popup view.
